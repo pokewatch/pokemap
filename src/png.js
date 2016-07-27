@@ -489,7 +489,8 @@ U.prototype.k=function(){var c=this.input,d,a;d=this.r.k();this.a=this.r.a;if(th
 
 // ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- //
 // Generate PNG 4 Pebble
-////// adapted from https://github.com/wheany/js-png-encoder/blob/master/generatepng.js
+// modified from https://github.com/gregoiresage/pebble-image-viewer/blob/master/src/js/generatepng4pebble.js
+// adapted from https://github.com/wheany/js-png-encoder/blob/master/generatepng.js
 
 var CRC_TABLE = [];
 function make_crc_table() {
