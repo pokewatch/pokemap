@@ -1,0 +1,39 @@
+{
+    "author": "robisodd",
+    "dependencies": {},
+    "keywords": [],
+    "name": "pogo-maps-v0.5a",
+    "pebble": {
+        "capabilities": [
+            "location"
+        ],
+        "displayName": "PoGo Maps v0.5a",
+        "enableMultiJS": false,
+        "messageKeys": {
+            "command": 8,
+            "gps_lat": 4,
+            "gps_lon": 5,
+            "gps_type": 3,
+            "gps_zoom": 6,
+            "message": 7,
+            "png_chunk": 0,
+            "png_index": 1,
+            "png_size": 2
+        },
+        "projectType": "native",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "b2a6fc52-d5ef-4929-9623-164ceb47296f",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "0.5.0"
+}
